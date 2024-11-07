@@ -1,0 +1,57 @@
+.overview-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.dashboard-button {
+  padding: 12px 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #4f4fdb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dashboard-button:hover {
+  background-color: #3b3ba6;
+  transform: translateY(-2px);
+}
+
+.project-button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.project-button {
+  padding: 12px 25px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4f4fdb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-button:hover {
+  background-color: #3b3ba6;
+  transform: translateY(-2px);
+}
+
+.profile-icon img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #4f4fdb;
+  margin-top: 20px;
+}
